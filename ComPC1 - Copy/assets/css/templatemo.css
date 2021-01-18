@@ -134,6 +134,7 @@ div {
 #templatemo_main_nav .navbar .nav-icon {
     margin-right: 20px;
 }
+.nav-item{padding-left: 95px;}
 
 
 /* Hero Carousel */
@@ -344,6 +345,7 @@ div {
 @media (min-width: 768px) {
     #templatemo_main_nav .navbar-nav {
         max-width: 450px;
+        float: right;
     }
 }
 
@@ -352,7 +354,8 @@ div {
 
 @media (min-width: 992px) {
     #templatemo_main_nav .navbar-nav {
-        max-width: 550px;
+        max-width: 700px;
+        float: right;
     }
     #template-mo-zay-hero-carousel .carousel-item {
         min-height: 30rem !important;
